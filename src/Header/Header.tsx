@@ -34,9 +34,7 @@ const Header = ({options}: Props) => {
                         <path d="M96.3 28c0-1.5 1.2-2.3 2.4-2.3s2.4.8 2.4 2.3c0 1.5-1.2 2.3-2.4 2.3-1.3 0-2.4-.9-2.4-2.3zm4 0c0-1-.7-1.7-1.6-1.7-.9 0-1.7.7-1.7 1.7s.7 1.7 1.6 1.7c.9 0 1.7-.7 1.7-1.7zm-2 1.2h-.6v-2.5h.9c.7 0 1.1.2 1.1.8 0 .5-.3.6-.7.7l.6 1.1H99l-.6-1h-.2v.9zm.5-1.5c.2 0 .3-.1.3-.3 0-.2-.3-.3-.5-.3h-.3v.6h.5z" fill="#111"/>
                     </svg>
                 </div>
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
+
 
                 <div className={ styles.linksHolder }>
                     <ul className={ styles.liHolder + ' ' + styles.desktop }>

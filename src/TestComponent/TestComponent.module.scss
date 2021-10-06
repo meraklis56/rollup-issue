@@ -1,16 +1,16 @@
-@import "../variables.scss";
-@import "../typography.scss";
+//@import "../variables.scss";
+//@import "../typography.scss";
 
 .testComponent {
-  background-color: var(--background);
-  color: var(--font-color);
+  background-color: blue;
+  color: red;
   border: 1px solid black;
   padding: 16px;
   width: 360px;
   text-align: center;
 
-  .heading {
-    @include heading;
-    color: red;
-  }
+  //.heading {
+  //  @include heading;
+  //  color: red;
+  //}
 }
